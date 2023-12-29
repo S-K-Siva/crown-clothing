@@ -7,7 +7,7 @@ import { SignOutUser } from "../../utils/ firebase/firebase.utils";
 import './navigation.styles.scss';
 import CartIcon from "../../components/cart/cart-icon.component";
 import CardDropDown from "../../components/cart-dropdown/card-dropdown.component";
-
+import { useEffect } from "react";
 import { CartContext } from "../../context/cart.context";
 import { useNavigate } from "react-router-dom";
 const NavBar = () =>{
@@ -23,13 +23,19 @@ const NavBar = () =>{
     
     console.log(currentUser);
 }   
+const navigate = useNavigate()
+let navigateToHomeScreen = () =>{
+
+};
+    useEffect(()=>
+        {
+            
+            navigateToHomeScreen = () =>  navigate('/')
+            navigateToHomeScreen();
+        },[currentUser]
+
+    )
     
-    const navigate = useNavigate();
-    const navigateToHomeScreen = () => 
-    {
-        
-        return navigate('/');
-    }
     return(
         <Fragment>
             <nav class="navigation">
