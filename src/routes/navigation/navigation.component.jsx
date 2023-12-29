@@ -9,6 +9,7 @@ import CartIcon from "../../components/cart/cart-icon.component";
 import CardDropDown from "../../components/cart-dropdown/card-dropdown.component";
 
 import { CartContext } from "../../context/cart.context";
+import { useNavigate } from "react-router-dom";
 const NavBar = () =>{
     const {isOpen } = useContext(CartContext);
     const {currentUser,setCurrentUser} = useContext(UserContext);
@@ -19,8 +20,16 @@ const NavBar = () =>{
         console.log(currentUser);
     await SignOutUser(currentUser);
     setCurrentUser(null);
+    
     console.log(currentUser);
-}
+}   
+    
+    const navigate = useNavigate();
+    const navigateToHomeScreen = () => 
+    {
+        
+        return navigate('/');
+    }
     return(
         <Fragment>
             <nav class="navigation">
@@ -51,6 +60,9 @@ const NavBar = () =>{
                         <Link className='nav-item nav-link' to="#">
                             <CartIcon />
                         </Link>
+                        {
+                            currentUser ? navigateToHomeScreen() : "" 
+                        }
                       
 
                     </div>
