@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This repo is not a complete full project, hence it's a project where it just uses only react hooks, it doesn't contain state optimization such as "reducers" or "redux".
+
+The completion of this project will be in new repository!
+link : #soon
+
 ## Available Scripts
 
 In the project directory, you can run:
