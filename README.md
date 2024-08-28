@@ -31,7 +31,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This repo is not a complete full project, hence it's a project where it just uses only react hooks, it doesn't contain state optimization such as "reducers" or "redux".
 
-The completion of this project will be in new repository!
+The completion of this project will be in new repository by including mern backend with advanced frontend designs and other features are in process, it's just a frontend application made with ReactJS, Redux, Firebase , etc..
 link : #soon
 
 ## Available Scripts
