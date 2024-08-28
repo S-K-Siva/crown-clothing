@@ -22,7 +22,8 @@
 <img width="1424" alt="Screenshot 2024-08-28 at 11 37 57 AM" src="https://github.com/user-attachments/assets/52217449-9965-4cfa-bb18-2f7e5965f50a">
 
 #### Checkout Page
-<img width="1421" alt="Screenshot 2024-08-28 at 11 38 23 AM" src="https://github.com/user-attachments/assets/6a5cfe5c-28d1-4f16-ab90-d3f00d4cc50f">
+![Screenshot 2024-08-28 at 11 57 55 AM](https://github.com/user-attachments/assets/e3544696-e73b-4941-b732-9314c8c04abf)
+
 
 # Getting Started with Create React App
 
