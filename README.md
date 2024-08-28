@@ -1,3 +1,20 @@
+# Application Interfaces
+
+#### Home Page
+<img width="1430" alt="Screenshot 2024-08-28 at 11 29 04 AM" src="https://github.com/user-attachments/assets/d0e4042d-d259-4f49-8fb4-5dbf40b039f9">
+
+#### Authentication Page
+<img width="1436" alt="Screenshot 2024-08-28 at 11 29 36 AM" src="https://github.com/user-attachments/assets/8418f2b1-f31f-4146-bd34-4cdd70f12927">
+
+#### Shopping Page
+<img width="1428" alt="Screenshot 2024-08-28 at 11 37 37 AM" src="https://github.com/user-attachments/assets/563a1748-c29d-4265-82b5-950b922e7cc1">
+
+#### Cart Feature
+<img width="1424" alt="Screenshot 2024-08-28 at 11 37 57 AM" src="https://github.com/user-attachments/assets/52217449-9965-4cfa-bb18-2f7e5965f50a">
+
+#### Checkout Page
+<img width="1421" alt="Screenshot 2024-08-28 at 11 38 23 AM" src="https://github.com/user-attachments/assets/6a5cfe5c-28d1-4f16-ab90-d3f00d4cc50f">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -61,6 +78,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 ### Making a Progressive Web App
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+
+
 
 ### Advanced Configuration
 
